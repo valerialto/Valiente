@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		241C61E02246975C00677953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241C61DF2246975C00677953 /* AppDelegate.swift */; };
+		241C61E22246975C00677953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241C61E12246975C00677953 /* ViewController.swift */; };
+		241C61E52246975C00677953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241C61E32246975C00677953 /* Main.storyboard */; };
+		241C61E72246975F00677953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241C61E62246975F00677953 /* Assets.xcassets */; };
+		241C61EA2246975F00677953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241C61E82246975F00677953 /* LaunchScreen.storyboard */; };
+		241C61F52246975F00677953 /* ValienteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241C61F42246975F00677953 /* ValienteTests.swift */; };
+		241C62002246975F00677953 /* ValienteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241C61FF2246975F00677953 /* ValienteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		241C61F12246975F00677953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241C61D42246975C00677953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241C61DB2246975C00677953;
+			remoteInfo = Valiente;
+		};
+		241C61FC2246975F00677953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241C61D42246975C00677953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241C61DB2246975C00677953;
+			remoteInfo = Valiente;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		241C61DC2246975C00677953 /* Valiente.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Valiente.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		241C61DF2246975C00677953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		241C61E12246975C00677953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		241C61E42246975C00677953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		241C61E62246975F00677953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		241C61E92246975F00677953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		241C61EB2246975F00677953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241C61F02246975F00677953 /* ValienteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValienteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		241C61F42246975F00677953 /* ValienteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValienteTests.swift; sourceTree = "<group>"; };
+		241C61F62246975F00677953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241C61FB2246975F00677953 /* ValienteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValienteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		241C61FF2246975F00677953 /* ValienteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValienteUITests.swift; sourceTree = "<group>"; };
+		241C62012246975F00677953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		241C61D92246975C00677953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241C61ED2246975F00677953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241C61F82246975F00677953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		241C61D32246975C00677953 = {
+			isa = PBXGroup;
+			children = (
+				241C61DE2246975C00677953 /* Valiente */,
+				241C61F32246975F00677953 /* ValienteTests */,
+				241C61FE2246975F00677953 /* ValienteUITests */,
+				241C61DD2246975C00677953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		241C61DD2246975C00677953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				241C61DC2246975C00677953 /* Valiente.app */,
+				241C61F02246975F00677953 /* ValienteTests.xctest */,
+				241C61FB2246975F00677953 /* ValienteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		241C61DE2246975C00677953 /* Valiente */ = {
+			isa = PBXGroup;
+			children = (
+				241C61DF2246975C00677953 /* AppDelegate.swift */,
+				241C61E12246975C00677953 /* ViewController.swift */,
+				241C61E32246975C00677953 /* Main.storyboard */,
+				241C61E62246975F00677953 /* Assets.xcassets */,
+				241C61E82246975F00677953 /* LaunchScreen.storyboard */,
+				241C61EB2246975F00677953 /* Info.plist */,
+			);
+			path = Valiente;
+			sourceTree = "<group>";
+		};
+		241C61F32246975F00677953 /* ValienteTests */ = {
+			isa = PBXGroup;
+			children = (
+				241C61F42246975F00677953 /* ValienteTests.swift */,
+				241C61F62246975F00677953 /* Info.plist */,
+			);
+			path = ValienteTests;
+			sourceTree = "<group>";
+		};
+		241C61FE2246975F00677953 /* ValienteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				241C61FF2246975F00677953 /* ValienteUITests.swift */,
+				241C62012246975F00677953 /* Info.plist */,
+			);
+			path = ValienteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		241C61DB2246975C00677953 /* Valiente */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241C62042246975F00677953 /* Build configuration list for PBXNativeTarget "Valiente" */;
+			buildPhases = (
+				241C61D82246975C00677953 /* Sources */,
+				241C61D92246975C00677953 /* Frameworks */,
+				241C61DA2246975C00677953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Valiente;
+			productName = Valiente;
+			productReference = 241C61DC2246975C00677953 /* Valiente.app */;
+			productType = "com.apple.product-type.application";
+		};
+		241C61EF2246975F00677953 /* ValienteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241C62072246975F00677953 /* Build configuration list for PBXNativeTarget "ValienteTests" */;
+			buildPhases = (
+				241C61EC2246975F00677953 /* Sources */,
+				241C61ED2246975F00677953 /* Frameworks */,
+				241C61EE2246975F00677953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241C61F22246975F00677953 /* PBXTargetDependency */,
+			);
+			name = ValienteTests;
+			productName = ValienteTests;
+			productReference = 241C61F02246975F00677953 /* ValienteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		241C61FA2246975F00677953 /* ValienteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241C620A2246975F00677953 /* Build configuration list for PBXNativeTarget "ValienteUITests" */;
+			buildPhases = (
+				241C61F72246975F00677953 /* Sources */,
+				241C61F82246975F00677953 /* Frameworks */,
+				241C61F92246975F00677953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241C61FD2246975F00677953 /* PBXTargetDependency */,
+			);
+			name = ValienteUITests;
+			productName = ValienteUITests;
+			productReference = 241C61FB2246975F00677953 /* ValienteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		241C61D42246975C00677953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Code Equal";
+				TargetAttributes = {
+					241C61DB2246975C00677953 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					241C61EF2246975F00677953 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 241C61DB2246975C00677953;
+					};
+					241C61FA2246975F00677953 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 241C61DB2246975C00677953;
+					};
+				};
+			};
+			buildConfigurationList = 241C61D72246975C00677953 /* Build configuration list for PBXProject "Valiente" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 241C61D32246975C00677953;
+			productRefGroup = 241C61DD2246975C00677953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				241C61DB2246975C00677953 /* Valiente */,
+				241C61EF2246975F00677953 /* ValienteTests */,
+				241C61FA2246975F00677953 /* ValienteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		241C61DA2246975C00677953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241C61EA2246975F00677953 /* LaunchScreen.storyboard in Resources */,
+				241C61E72246975F00677953 /* Assets.xcassets in Resources */,
+				241C61E52246975C00677953 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241C61EE2246975F00677953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241C61F92246975F00677953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		241C61D82246975C00677953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241C61E22246975C00677953 /* ViewController.swift in Sources */,
+				241C61E02246975C00677953 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241C61EC2246975F00677953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241C61F52246975F00677953 /* ValienteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241C61F72246975F00677953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241C62002246975F00677953 /* ValienteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		241C61F22246975F00677953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241C61DB2246975C00677953 /* Valiente */;
+			targetProxy = 241C61F12246975F00677953 /* PBXContainerItemProxy */;
+		};
+		241C61FD2246975F00677953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241C61DB2246975C00677953 /* Valiente */;
+			targetProxy = 241C61FC2246975F00677953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		241C61E32246975C00677953 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241C61E42246975C00677953 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		241C61E82246975F00677953 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241C61E92246975F00677953 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		241C62022246975F00677953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		241C62032246975F00677953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		241C62052246975F00677953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Valiente/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Code-Equal.Valiente";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		241C62062246975F00677953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Valiente/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Code-Equal.Valiente";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		241C62082246975F00677953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ValienteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Code-Equal.ValienteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Valiente.app/Valiente";
+			};
+			name = Debug;
+		};
+		241C62092246975F00677953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ValienteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Code-Equal.ValienteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Valiente.app/Valiente";
+			};
+			name = Release;
+		};
+		241C620B2246975F00677953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ValienteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Code-Equal.ValienteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Valiente;
+			};
+			name = Debug;
+		};
+		241C620C2246975F00677953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ValienteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Code-Equal.ValienteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Valiente;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		241C61D72246975C00677953 /* Build configuration list for PBXProject "Valiente" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241C62022246975F00677953 /* Debug */,
+				241C62032246975F00677953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241C62042246975F00677953 /* Build configuration list for PBXNativeTarget "Valiente" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241C62052246975F00677953 /* Debug */,
+				241C62062246975F00677953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241C62072246975F00677953 /* Build configuration list for PBXNativeTarget "ValienteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241C62082246975F00677953 /* Debug */,
+				241C62092246975F00677953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241C620A2246975F00677953 /* Build configuration list for PBXNativeTarget "ValienteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241C620B2246975F00677953 /* Debug */,
+				241C620C2246975F00677953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 241C61D42246975C00677953 /* Project object */;
+}
